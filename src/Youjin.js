@@ -4,10 +4,6 @@ function Youjin() {
   const [state, setState] = useState();
   const [code, setCode] = useState(1);
   console.log("test2");
-  console.log("test3");
-  console.log("test5");
-  console.log("test7");
-  console.log("test5");
 
   const test = "1";
 
@@ -16,7 +12,7 @@ function Youjin() {
       .then((res) => res.json())
       .then(setState);
   }, []);
-
+  console.log("hete");
   return (
     <div className="Youjin">
       <header className="App-header">
