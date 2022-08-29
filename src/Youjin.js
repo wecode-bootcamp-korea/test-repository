@@ -8,9 +8,6 @@ function Youjin() {
   console.log("test5");
   console.log("test7");
   console.log("test5");
-  console.log("test7");
-  console.log("test5");
-  console.log("test7");
 
   const test = "1";
 
