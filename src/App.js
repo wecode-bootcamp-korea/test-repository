@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React, { useState } from "react";
 
 function App() {
+  const [day, setDay] = useState(0);
+  const name = "도현";
+
+  console.log(123);
   return (
     <div className="App">
       <header className="App-header">
